@@ -33,6 +33,13 @@ const AddToList: React.FC<Props> = ({ people, setPeople }) => {
         note: input.note,
       },
     ]);
+
+    setInput({
+      name: "",
+      age: "",
+      url: "",
+      note: "",
+    });
   };
 
   return (
